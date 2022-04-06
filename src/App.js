@@ -67,7 +67,7 @@ function App() {
   }
   if(found == false)
   {
-    alert("Please enter valid city name")
+    alert("Please enter valid State name")
 
   }
  }
@@ -79,7 +79,7 @@ function App() {
       <div className='coronabg'>
         <h1 className='heading'>India Corona Tracker</h1>
         <div className=" d-grid gap-3 mt-4 col-4" >
-        < input type="text" placeholder="Enter City name" onChange={handleChangeInput}></input>
+        < input type="text" placeholder="Enter State name" onChange={handleChangeInput}></input>
         <button className="btn btn-primary" type="button" onClick={handleSearch}>Search</button>
         </div>
         </div>
