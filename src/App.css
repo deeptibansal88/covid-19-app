@@ -1,0 +1,11 @@
+.coronabg{
+  background: url(assets/newimage.jpg);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 70px;
+  font-weight: 700;
+}
